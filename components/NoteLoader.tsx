@@ -12,5 +12,13 @@ export const NoteLoader = ({ width }: { width: number }) => (
   >
     <Rect x="8" y="8" rx="10" ry="10" width="150" height="115" />
     <Rect x="190" y="8" rx="10" ry="10" width="150" height="115" />
+    <Rect x="8" y="139" rx="10" ry="10" width="150" height="115" />
+    <Rect x="190" y="139" rx="10" ry="10" width="150" height="115" />
+    <Rect x="8" y="270" rx="10" ry="10" width="150" height="115" />
+    <Rect x="190" y="270" rx="10" ry="10" width="150" height="115" />
+    <Rect x="8" y="401" rx="10" ry="10" width="150" height="115" />
+    <Rect x="190" y="401" rx="10" ry="10" width="150" height="115" />
+    <Rect x="8" y="532" rx="10" ry="10" width="150" height="115" />
+    <Rect x="190" y="532" rx="10" ry="10" width="150" height="115" />
   </ContentLoader>
 );
