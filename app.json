@@ -14,13 +14,36 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+<<<<<<< Updated upstream
       "supportsTablet": true
+=======
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "bundleIdentifier": "insightmobile",
+      "buildNumber": "2"
+>>>>>>> Stashed changes
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+<<<<<<< Updated upstream
       }
+=======
+      },
+      "package": "com.kjhbryan.insightmobile",
+      "versionCode": 11,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+>>>>>>> Stashed changes
     },
     "web": {
       "bundler": "metro",
