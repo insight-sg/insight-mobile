@@ -16,10 +16,10 @@ export default function InitalScreen() {
         Welcome to Insight!
       </Text>
       <Button style={[styles.loginbutton]} mode="contained" onPress={() => {router.push({pathname: '/(access)/login'})}}>
-        Login
+      <Text style={[styles.loginbuttonText]}>Login</Text>
       </Button>
       <Button style={[styles.registerButton]} mode="contained" onPress={() => {router.push({pathname: '/(access)/register'})}}>
-        Register
+        <Text style={[styles.registerButtonText]}>Register</Text>
       </Button>
     </View>
   );
@@ -51,9 +51,21 @@ const styles = StyleSheet.create({
     marginVertical: 10,
     backgroundColor: Colors.default.primary
   },
+  loginbuttonText: {
+    color: 'white',
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
   registerButton: {
     width: '100%',
     marginVertical: 10,
-    backgroundColor: Colors.default.complementGreen
-  }
+    backgroundColor: '#ffffff',
+    borderWidth: 1,
+    borderColor: '#000000',
+  },
+  registerButtonText: {
+    color: Colors.default.primary,
+    textAlign: 'center',
+    fontWeight: 'bold',
+  },
 });
